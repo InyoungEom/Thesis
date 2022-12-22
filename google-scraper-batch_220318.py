@@ -26,7 +26,7 @@ def Get_arguments():
     # country
     parser.add_argument("--country", type=str, default="us")
     # batch size
-    parser.add_argument("--batch", type=int, default=600)  #citi까지 수집하려면 6만개 정도
+    parser.add_argument("--batch", type=int, default=600)  
     # data path
     parser.add_argument("--data", type=str, default="data/app_ids.csv")
     
